@@ -19,25 +19,25 @@ Simulate command-and-control (C2) beacon traffic and detect it using packet capt
 
 ### APT Update
 
-![APT Update](screenshots/04-apt-update-before-scapy-install.png)
+![APT Update](screenshots/screenshots/04-apt-update-before-scapy-install.png)
 
 ---
 
 ## Python & Pip Installation
 
-![Python3 Pip Installed](screenshots/05-python3-pip-installed.png)
+![Python3 Pip Installed](screenshots/screenshots/05-python3-pip-installed.png)
 
 ---
 
 ## tcpdump Installation
 
-![tcpdump Installed](screenshots/06-tcpdump-installed.png)
+![tcpdump Installed](screenshots/screenshots/06-tcpdump-installed.png)
 
 ---
 
 ## Scapy Installation
 
-![Scapy Installed](screenshots/07-python3-scapy-installed.png)
+![Scapy Installed](screenshots/screenshots/07-python3-scapy-installed.png)
 
 ---
 
@@ -45,7 +45,7 @@ Simulate command-and-control (C2) beacon traffic and detect it using packet capt
 
 The custom Scapy script generated periodic outbound TCP SYN packets to 8.8.8.8 over port 443 to simulate C2 beaconing behavior.
 
-![Beacon Script Executed](screenshots/06-beacon-script-executed.png)
+![Beacon Script Executed](screenshots/screenshots/06-beacon-script-executed.png)
 
 ---
 
@@ -53,7 +53,7 @@ The custom Scapy script generated periodic outbound TCP SYN packets to 8.8.8.8 o
 
 Traffic was captured into a PCAP file using tcpdump and analyzed offline to identify beaconing indicators.
 
-![Beacon PCAP Analysis](screenshots/09-beacon-pcap-analysis.png)
+![Beacon PCAP Analysis](screenshots/screenshots/09-beacon-pcap-analysis.png)
 
 ### Detection Indicators Observed
 
@@ -71,7 +71,9 @@ These characteristics are consistent with basic C2 beaconing behavior where an i
 
 Filtering only SYN packets using tcpdump:
 
-![Beacon SYN Filter](screenshots/10-beacon-syn-filter.png)
+![Beacon SYN Filter](screenshots/screenshots/10-beacon-syn-filter.png)
+
+---
 
 ## Skills Demonstrated
 
@@ -80,6 +82,8 @@ Filtering only SYN packets using tcpdump:
 - Identification of periodic outbound beaconing behavior
 - PCAP investigation and traffic pattern analysis
 - Simulation of C2 traffic using Scapy
+
+---
 
 ## Conclusion
 
